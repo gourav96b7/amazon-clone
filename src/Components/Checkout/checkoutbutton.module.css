@@ -1,0 +1,18 @@
+.proceedToBuy { 
+    background: #FFD814;
+    box-shadow: 0.5px 0.5px 2px 0.5px #F7CA00;
+    width: 18vw;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+  }
+  .proceedToBuy:hover {
+    background: #F7CA00;
+  }
+  .link {
+    text-decoration: none;
+  }

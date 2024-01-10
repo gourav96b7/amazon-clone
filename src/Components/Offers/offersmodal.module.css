@@ -1,0 +1,187 @@
+    .headerDiv {
+      background: #F5F6F7;
+      height: 10.5vh;
+      display: flex;
+      align-items: center;
+      padding: 0 1.5rem;
+      justify-content: space-between;
+      box-shadow: 0 1px 5px 0 #d1d1d1;
+      position: fixed;
+      width: Calc(38vw - 3rem);
+      top: 0;
+    }
+    .close {
+      color: black;
+      font-size: 1.5rem;
+      height: 3rem;
+    }
+    .close:hover {
+        background: transparent;
+    }
+    .header {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .body {
+      padding: 0.5rem 1.5rem;
+      margin-top: 10.5vh;
+    }
+    .text1 {
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    .heading {
+      font-size: 1.15rem;
+      font-weight: bold;
+      letter-spacing: -0.5px;
+      margin-top: 1.2rem;
+    }
+    .paragraph {
+      font-size: 0.85rem;
+      line-height: 1.4;
+      letter-spacing: -0.1px;
+      width: 95%;
+    }
+    .divider {
+      margin-top: 1rem;
+    }
+    .btn {
+      font-size: 0.75rem;
+      color: #0a8cc2;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-top: 0.8rem;
+    }
+    .btn:hover {
+        text-decoration: underline;
+        color: #C7511F;
+    }
+    .downIcon {
+      font-size: 0.7rem;
+      margin-right: 0.1rem;
+      stroke-width: 0.5px !important;
+      color: #343434;
+    }
+    .rightIcon {
+      font-size: 0.9rem;
+    }
+    .leftIcon {
+      font-size: 1.15rem;
+      stroke-width: 0.5px !important;
+    }
+    .FAQ {
+      margin: 0.5rem 0;
+    }
+    .question {
+      font-size: 1.1rem;
+      font-weight: bold;
+      line-height: 1.25;
+      margin-top: 0.3rem;
+    }
+    .answer {
+      font-size: 0.8rem;
+      line-height: 1.3;
+    }
+    .ul {
+      margin: 0;
+    }
+    .ulTerms {
+      margin: 0;
+      padding-left: 1.5rem;
+      padding-bottom: 2rem;
+    }
+    .termsHeading {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .termsDiv {
+      padding: 0.4rem 0 1rem 1rem;
+    }
+    .termsBody {
+      font-size: 0.78rem;
+      font-family: Roboto;
+      line-height: 1.4;
+      word-spacing: 1px;
+    }
+    .listItem {
+      margin-top: 1rem;
+    }
+    .amazonLink {
+      color: #0a8cc2;
+      text-decoration: none;
+    }
+    .amazonLink:hover {
+        text-decoration: underline;
+        color: #C7511F;
+    }
+    .termsInnerHeading {
+      font-size: 0.78rem;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+    .offerTitle {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 0.7rem 0;
+    }
+    .offerDesc {
+      font-size: 0.95rem;
+    }
+    .availOffer {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 0.7rem;
+    }
+    .backButton {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .partnerHeading {
+      font-size: 1.15rem;
+    }
+    .promotionTermsDiv {
+      margin-left: 1rem;
+    }
+    .promotionTerms {
+      font-size: 1.05rem;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .ol {
+      margin: 0;
+      padding: 0;
+      margin-top: 0.3rem;
+      padding-left: 0.8rem;
+      font-size: 0.78rem;
+    }
+    .noteMargin {
+      margin-top: 0.3rem;
+    }
+    .headerOffer {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .descOffer {
+      font-size: 1.3rem;
+      line-height: 1.3;
+      margin: 1.5rem 0;
+    }
+    .promotionTermsOffer {
+      font-size: 1.2rem;
+      margin: 1rem;
+      font-weight: bold;
+    }
+      ol > li {
+        padding-left: 1rem;
+        margin-top: 0.5rem;
+      };
+      ol > li::marker {
+        font-weight: bold;
+      };
+      table, th, td {
+        border: 2px solid;
+        padding: 0.3rem;
+        border-collapse: collapse;
+      };

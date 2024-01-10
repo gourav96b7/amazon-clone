@@ -1,0 +1,61 @@
+    .main {
+      height: 35vh;
+      box-shadow: none;
+      display: flex;
+    }
+    .image {
+      width: 20%;
+      margin-right: 2rem;
+    }
+    .title {
+      font-size: 1.2rem;
+      width: 90%;
+    }
+    .deleteLink {
+      font-size: 0.9rem;
+      color: #007185;
+      text-decoration: none;
+    }
+    .deleteLink:hover {
+        color: #C7511F;
+        text-decoration: underline;
+    }
+    .giftOptions {
+      font-size: 0.9rem;
+      color: #565959;
+      margin-right: 0.2rem;
+    }
+    .giftDiv {
+      display: flex;
+      align-items: center;
+    }
+    .stock {
+      font-size: 0.9rem;
+      color: #00855A;
+      margin-top: 0.5rem;
+    }
+    .removeButton {
+      font-size: 1rem;
+      margin-top: 1.6rem;
+      cursor: pointer;
+    }
+    .removeButton:hover {
+        color: #007185;
+    };
+    .select {
+      width: 3rem;
+      margin-left: 1rem;
+      height: 2rem;
+      outline: none;
+      padding-left: 0.5rem;
+      cursor: pointer;
+    }
+    .quantityDiv {
+      display: flex;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+    .quantity {
+      font-weight: bold;
+    }
+  
